@@ -313,7 +313,7 @@ const B2BHome = () => {
         </div>
       </div>
 
-      <Footer accentColor="blue" />
+      <Footer accentColor="purple" />
     </div>
   )
 }

@@ -295,7 +295,7 @@ const Home = () => {
         )}
       </div>
 
-      <Footer accentColor="violet" />
+      <Footer accentColor="green" />
     </div>
   )
 }

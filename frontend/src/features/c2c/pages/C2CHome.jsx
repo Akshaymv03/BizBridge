@@ -270,7 +270,7 @@ const C2CHome = () => {
         </div>
       </div>
 
-      <Footer accentColor="green" />
+      <Footer accentColor="purple" />
     </div>
   )
 }

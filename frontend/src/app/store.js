@@ -3,6 +3,7 @@ import { configureStore } from '@reduxjs/toolkit'
 import authReducer from '../features/auth/authSlice'
 import b2bReducer from '../features/b2b/b2bSlice'
 import b2cReducer from '../features/b2c/b2cSlice'
+import cartReducer     from '../features/b2c/cartSlice'   
 import c2cReducer from '../features/c2c/c2cSlice'
 import orderReducer from '../features/orders/orderSlice'
 import c2cCartReducer from '../features/c2c/c2cCartSlice'
@@ -14,6 +15,7 @@ export const store = configureStore({
     b2b: b2bReducer,
     b2c: b2cReducer,
     c2c: c2cReducer,
+    cart: cartReducer,  
     orders: orderReducer,
     c2cCart: c2cCartReducer,
     c2cOrders: c2cOrderReducer,
